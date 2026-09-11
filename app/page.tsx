@@ -30,7 +30,8 @@ export default function Home() {
       {/* Seksi Events */}
       <Events />
 
-      <Footer />
+      {/* Footer */}
+      <Footer onOpenLocations={() => setIsLocationsOpen(true)} />
     </main>
   );
 }
