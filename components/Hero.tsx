@@ -10,7 +10,7 @@ interface HeroProps {
 export default function Hero({ onOpenLocations }: HeroProps) {
   return (
     <section 
-      className="relative pt-24 pb-20 md:pt-48 md:pb-36 min-h-[85vh] md:min-h-[90vh] flex items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat"
+      className="relative pt-32 pb-28 md:pt-48 md:pb-36 min-h-[90vh] md:min-h-[90vh] flex items-center justify-center overflow-hidden bg-[length:180%_auto] sm:bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/bg-hero.jpg')" }}
     >
       
