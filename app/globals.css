@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  background-color: #FAFAFA;
+  color: #1A1A1A;
+}
+
+.pink-shadow {
+  box-shadow: 0 4px 14px 0 rgba(255, 107, 139, 0.39);
+}
+
+/* Tambahkan animasi galeri berjalan di bawah ini */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+.animate-scroll-reverse {
+  animation: scroll 40s linear infinite reverse;
+} 
